@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -6,17 +6,17 @@ namespace CTDL
 {
     public class Room
     {
-        public int RoomNumber;
+        public string RoomNumber;
         public int TotalBeds;
         public int EmptyBeds;
         public string Status;
 
-        public Room(int roomNumber, int totalBeds, int emptyBeds, string status)
+        public Room(string roomNumber, int totalBeds, int emptyBeds, string status)
         {
-            this.RoomNumber = RoomNumber;
-            this.TotalBeds = TotalBeds;
-            this.EmptyBeds = EmptyBeds;
-            this.Status = Status;
+            RoomNumber = roomNumber;
+            TotalBeds = totalBeds;
+            EmptyBeds = emptyBeds;
+            Status = status;
         }
 
         public void UpdateRoomInfo(int totalBeds, int emptyBeds, string status)
@@ -26,7 +26,7 @@ namespace CTDL
             Status = status;
         }
 
-        // Calculating occupied beds
+        // Tinh toan so giuong da su dung
         public int OccupiedBeds()
         {
             return TotalBeds - EmptyBeds;
@@ -37,20 +37,20 @@ namespace CTDL
     {
         private List<Room> rooms = new List<Room>();
 
-        // Add room
+        // Them phong
         public void AddRoom(Room room)
         {
             rooms.Add(room);
         }
 
-        // Remove room
-        public void RemoveRoom(int roomNumber)
+        // Xoa phong
+        public void RemoveRoom(string roomNumber)
         {
             rooms.RemoveAll(r => r.RoomNumber == roomNumber);
         }
 
-        // Update room info
-        public bool UpdateRoom(int roomNumber, int totalBeds, int emptyBeds, string status)
+        // Cap nhat thong tin phong
+        public bool UpdateRoom(string roomNumber, int totalBeds, int emptyBeds, string status)
         {
             Room room = rooms.FirstOrDefault(r => r.RoomNumber == roomNumber);
             if (room != null)
@@ -61,42 +61,39 @@ namespace CTDL
             return false;
         }
 
-        // Check if room exists
-        public bool RoomExists(int roomNumber)
+        // Kiem tra xem phong co ton tai khong
+        public bool RoomExists(string roomNumber)
         {
             return rooms.Any(r => r.RoomNumber == roomNumber);
         }
 
-        // Display room list formatted as a table with sequence numbers
+        // Hien thi danh sach phong
         public void DisplayRooms()
         {
             Console.WriteLine("------------------------------------------------------------------------------------");
-            Console.WriteLine("| No. | Room Number | Total Beds | Empty Beds | Occupied Beds | Status             |");
+            Console.WriteLine("| STT | So phong    | Tong so giuong | Giuong trong  | Giuong da su dung | Ghi chu  ");
             Console.WriteLine("------------------------------------------------------------------------------------");
 
             int index = 1;
             foreach (var room in rooms.OrderBy(r => r.EmptyBeds))
             {
-                Console.WriteLine($"| {index,-3} | {room.RoomNumber,-11} | {room.TotalBeds,-10} | {room.EmptyBeds,-10} | {room.OccupiedBeds(),-13} | {room.Status,-18} |");
+                Console.WriteLine($"| {index,-3} | {room.RoomNumber,-11} | {room.TotalBeds,-15} | {room.EmptyBeds,-12} | {room.OccupiedBeds(),-17} | {room.Status,-18} ");
                 index++;
             }
 
             Console.WriteLine("------------------------------------------------------------------------------------");
         }
 
-        // Simulate going back to the home page (by showing a message)
+        // Quay lai trang chu
         public void GoBackToHome()
         {
-            Console.WriteLine("Returning to Home Page...");
+            Console.WriteLine("Quay lai trang chu...");
         }
     }
 
-    public class CTDT
+    public class main
     {
         public static void Main(string[] args)
-        {
-           
-        static void ManageRooms()
         {
             RoomManager roomManager = new RoomManager();
             bool roomRunning = true;
@@ -121,151 +118,131 @@ namespace CTDL
                         roomManager.DisplayRooms();
                         break;
                     case "5":
-                        roomRunning = false; // Exit room management
+                        roomRunning = false; // Thoat quan ly phong
                         break;
                     default:
-                        Console.WriteLine("Invalid choice. Please try again.");
+                        Console.WriteLine("Lua chon khong hop le. Vui long thu lai.");
                         break;
                 }
             }
         }
 
-        // Display the room management menu formatted as a table
+        // Hien thi menu quan ly phong
         static void ShowRoomManagementMenu()
         {
-            Console.WriteLine("\nRoom Management Menu:");
+            Console.WriteLine("\nMenu Quan Ly Phong:");
             Console.WriteLine("---------------------------------------------------");
-            Console.WriteLine("| No. | Action                                     |");
+            Console.WriteLine("| STT | Hanh dong                                 |");
             Console.WriteLine("---------------------------------------------------");
-            Console.WriteLine("| 1   | Add Room                                   |");
-            Console.WriteLine("| 2   | Remove Room                                |");
-            Console.WriteLine("| 3   | Update Room                                |");
-            Console.WriteLine("| 4   | Display Room List                          |");
-            Console.WriteLine("| 5   | Go Back to Main Menu                       |");
+            Console.WriteLine("| 1   | Them phong                                |");
+            Console.WriteLine("| 2   | Xoa phong                                 |");
+            Console.WriteLine("| 3   | Cap nhat phong                            |");
+            Console.WriteLine("| 4   | Hien thi danh sach phong                  |");
+            Console.WriteLine("| 5   | Quay lai menu chinh                       |");
             Console.WriteLine("---------------------------------------------------");
-            Console.Write("Your choice: ");
+            Console.Write("Lua chon cua ban: ");
         }
 
-        // Method to input room details and add a room
+        // Phuong thuc nhap chi tiet phong va them phong
         static void AddRoomFromInput(RoomManager roomManager)
         {
-            Console.Write("Enter the number of rooms to add: ");
+            Console.Write("Nhap so luong phong can them: ");
             int numberOfRooms = int.Parse(Console.ReadLine());
 
             for (int i = 1; i <= numberOfRooms; i++)
             {
-                Console.WriteLine($"\nEnter details for room {i}:");
+                Console.WriteLine($"\nNhap thong tin cho phong {i}:");
 
-                Console.Write("Enter room number (Consists of 4 integers" +
-                    " the first 2 digits: floor number, the last 2 digits: room number) : ");
+                Console.Write("Nhap so phong (bao gom 4 so nguyen, 2 so dau la tang, 2 so cuoi la phong): ");
+                string roomNumber = Console.ReadLine();
 
-                int roomNumber = int.Parse(Console.ReadLine());
-
-
-                Console.Write("Enter total number of beds: ");
+                Console.Write("Nhap tong so giuong: ");
                 int totalBeds = int.Parse(Console.ReadLine());
 
                 int emptyBeds;
                 do
                 {
-                    Console.Write("Enter number of empty beds: ");
+                    Console.Write("Nhap so giuong trong: ");
                     emptyBeds = int.Parse(Console.ReadLine());
 
                     if (emptyBeds > totalBeds)
                     {
-                        Console.WriteLine("Error: Empty beds cannot be greater than total beds. Please re-enter.");
+                        Console.WriteLine("Loi: So giuong trong khong duoc lon hon tong so giuong. Vui long nhap lai.");
                     }
 
-                } while (emptyBeds > totalBeds); // Repeat until a valid number is entered
+                } while (emptyBeds > totalBeds);
 
-                Console.Write("Enter room status (Available/Occupied): ");
+                Console.Write("Ghi chu ");
+
                 string status = Console.ReadLine();
 
                 Room newRoom = new Room(roomNumber, totalBeds, emptyBeds, status);
                 roomManager.AddRoom(newRoom);
 
-                Console.WriteLine("Room successfully added!");
+                Console.WriteLine("Them phong thanh cong!");
             }
         }
 
-        // Method to input room number and remove a room
+        // Phuong thuc nhap so phong va xoa phong
         static void RemoveRoomFromInput(RoomManager roomManager)
         {
-            Console.Write("Enter the room number to remove: ");
-            int roomNumber = int.Parse(Console.ReadLine());
+            Console.Write("Nhap so phong can xoa: ");
+            string roomNumber = Console.ReadLine();
 
             roomManager.RemoveRoom(roomNumber);
-            Console.WriteLine("Room successfully removed!");
+            Console.WriteLine("Xoa phong thanh cong!");
         }
 
-        // Method to input room details and update a room
+        // Phuong thuc nhap chi tiet phong va cap nhat phong
         static void UpdateRoomFromInput(RoomManager roomManager)
         {
-            Console.Write("Enter the room number to update: ");
-            int roomNumber = int.Parse(Console.ReadLine());
+            Console.Write("Nhap so phong can cap nhat: ");
+            string roomNumber = Console.ReadLine();
 
             if (!roomManager.RoomExists(roomNumber))
             {
-                Console.WriteLine("Room does not exist. Would you like to:");
-                Console.WriteLine("1. Try again");
-                Console.WriteLine("2. Create a new room");
+                Console.WriteLine("Phong khong ton tai. Ban co muon:");
+                Console.WriteLine("1. Thu lai");
+                Console.WriteLine("2. Tao phong moi");
                 string choice = Console.ReadLine();
 
                 if (choice == "1")
                 {
-                    UpdateRoomFromInput(roomManager); // Recursive call to try again
+                    UpdateRoomFromInput(roomManager);
                 }
                 else if (choice == "2")
                 {
-                    AddRoomFromInput(roomManager); // Create new room
+                    AddRoomFromInput(roomManager);
                 }
                 else
                 {
-                    Console.WriteLine("Invalid choice. Returning to menu.");
+                    Console.WriteLine("Lua chon khong hop le. Quay lai menu.");
                 }
 
                 return;
             }
 
-            Console.Write("Enter new total number of beds: ");
+            Console.Write("Nhap tong so giuong moi: ");
             int totalBeds = int.Parse(Console.ReadLine());
 
             int emptyBeds;
             do
             {
-                Console.Write("Enter new number of empty beds: ");
+                Console.Write("Nhap so giuong trong moi: ");
                 emptyBeds = int.Parse(Console.ReadLine());
 
                 if (emptyBeds > totalBeds)
                 {
-                    Console.WriteLine("Error: Empty beds cannot be greater than total beds. Please re-enter.");
+                    Console.WriteLine("Loi: So giuong trong khong duoc lon hon tong so giuong. Vui long nhap lai.");
                 }
 
-            } while (emptyBeds > totalBeds); // Repeat until valid input
+            } while (emptyBeds > totalBeds);
 
-            Console.Write("Enter new room status (Available/Occupied): ");
+            Console.Write("Ghi chu: ");
             string status = Console.ReadLine();
 
             roomManager.UpdateRoom(roomNumber, totalBeds, emptyBeds, status);
-            Console.WriteLine("Room information successfully updated!");
-        }
-
-        // Placeholder for managing students
-        static void ManageStudents()
-        {
-            Console.WriteLine("Student management is not implemented yet.");
-        }
-
-        // Placeholder for managing nets
-        static void ManageNets()
-        {
-            Console.WriteLine("Nets management is not implemented yet.");
-        }
-
-        // Placeholder for saving and loading data
-        static void SaveAndLoadData()
-        {
-            Console.WriteLine("Save and load data functionality is not implemented yet.");
+            Console.WriteLine("Cap nhat thong tin phong thanh cong!");
         }
     }
 }
