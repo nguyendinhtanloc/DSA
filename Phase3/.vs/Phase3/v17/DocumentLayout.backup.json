@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\Phase3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87DE9683-96D0-4A23-ACCB-61DA58172450}|Phase3\\Phase3.csproj|c:\\c#\\phase3\\phase3\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87DE9683-96D0-4A23-ACCB-61DA58172450}|Phase3\\Phase3.csproj|solutionrelative:phase3\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87DE9683-96D0-4A23-ACCB-61DA58172450}|Phase3\\Phase3.csproj|c:\\c#\\phase3\\phase3\\qlykyluat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87DE9683-96D0-4A23-ACCB-61DA58172450}|Phase3\\Phase3.csproj|solutionrelative:phase3\\qlykyluat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87DE9683-96D0-4A23-ACCB-61DA58172450}|Phase3\\Phase3.csproj|c:\\c#\\phase3\\phase3\\qlythanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87DE9683-96D0-4A23-ACCB-61DA58172450}|Phase3\\Phase3.csproj|solutionrelative:phase3\\qlythanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QLyKyLuat.cs",
+              "DocumentMoniker": "C:\\C#\\Phase3\\Phase3\\QLyKyLuat.cs",
+              "RelativeDocumentMoniker": "Phase3\\QLyKyLuat.cs",
+              "ToolTip": "C:\\C#\\Phase3\\Phase3\\QLyKyLuat.cs*",
+              "RelativeToolTip": "Phase3\\QLyKyLuat.cs*",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T19:54:39.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QLyThanhToan.cs",
+              "DocumentMoniker": "C:\\C#\\Phase3\\Phase3\\QLyThanhToan.cs",
+              "RelativeDocumentMoniker": "Phase3\\QLyThanhToan.cs",
+              "ToolTip": "C:\\C#\\Phase3\\Phase3\\QLyThanhToan.cs",
+              "RelativeToolTip": "Phase3\\QLyThanhToan.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAiwGIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T19:49:16.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\C#\\Phase3\\Phase3\\Test.cs",
+              "RelativeDocumentMoniker": "Phase3\\Test.cs",
+              "ToolTip": "C:\\C#\\Phase3\\Phase3\\Test.cs*",
+              "RelativeToolTip": "Phase3\\Test.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T19:49:14.741Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

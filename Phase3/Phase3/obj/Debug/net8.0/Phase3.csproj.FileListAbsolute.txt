@@ -1,0 +1,14 @@
+C:\C#\Phase3\Phase3\bin\Debug\net8.0\Phase3.exe
+C:\C#\Phase3\Phase3\bin\Debug\net8.0\Phase3.deps.json
+C:\C#\Phase3\Phase3\bin\Debug\net8.0\Phase3.runtimeconfig.json
+C:\C#\Phase3\Phase3\bin\Debug\net8.0\Phase3.dll
+C:\C#\Phase3\Phase3\bin\Debug\net8.0\Phase3.pdb
+C:\C#\Phase3\Phase3\obj\Debug\net8.0\Phase3.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Phase3\Phase3\obj\Debug\net8.0\Phase3.AssemblyInfoInputs.cache
+C:\C#\Phase3\Phase3\obj\Debug\net8.0\Phase3.AssemblyInfo.cs
+C:\C#\Phase3\Phase3\obj\Debug\net8.0\Phase3.csproj.CoreCompileInputs.cache
+C:\C#\Phase3\Phase3\obj\Debug\net8.0\Phase3.dll
+C:\C#\Phase3\Phase3\obj\Debug\net8.0\refint\Phase3.dll
+C:\C#\Phase3\Phase3\obj\Debug\net8.0\Phase3.pdb
+C:\C#\Phase3\Phase3\obj\Debug\net8.0\Phase3.genruntimeconfig.cache
+C:\C#\Phase3\Phase3\obj\Debug\net8.0\ref\Phase3.dll
