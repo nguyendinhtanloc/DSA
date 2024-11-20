@@ -1,0 +1,4 @@
+Username,StudentID,FullName,Hometown,PhoneNumber,Faculty,Class
+23133059@student.hcmute.edu.vn,23133059,Dinh Hoang Phuong,An Giang,0346295559,CNTT,23133B
+23133071@student.hcmute.edu.vn,23133071,Mai Quoc Thai,Tien Giang,0355033919,CNTT,23133B
+23133059,23133056,mhjdhf,jdfhvjdf,7343784737,dfjhfd,343444f

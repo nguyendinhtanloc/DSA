@@ -1,0 +1,28 @@
+C:\Users\Admin\source\repos\Quản lý sinh viên trong kí túc xá\Quản lý sinh viên trong kí túc xá\bin\Debug\Quản lý sinh viên trong kí túc xá.exe.config
+C:\Users\Admin\source\repos\Quản lý sinh viên trong kí túc xá\Quản lý sinh viên trong kí túc xá\bin\Debug\Quản lý sinh viên trong kí túc xá.exe
+C:\Users\Admin\source\repos\Quản lý sinh viên trong kí túc xá\Quản lý sinh viên trong kí túc xá\bin\Debug\Quản lý sinh viên trong kí túc xá.pdb
+C:\Users\Admin\source\repos\Quản lý sinh viên trong kí túc xá\Quản lý sinh viên trong kí túc xá\obj\Debug\Quản lý sinh viên trong kí túc xá.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Quản lý sinh viên trong kí túc xá\Quản lý sinh viên trong kí túc xá\obj\Debug\Quản lý sinh viên trong kí túc xá.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Quản lý sinh viên trong kí túc xá\Quản lý sinh viên trong kí túc xá\obj\Debug\Quản lý sinh viên trong kí túc xá.exe
+C:\Users\Admin\source\repos\Quản lý sinh viên trong kí túc xá\Quản lý sinh viên trong kí túc xá\obj\Debug\Quản lý sinh viên trong kí túc xá.pdb
+D:\SINHVIEN\btvn\CTDL & GT\Quản lý sinh viên trong kí túc xá\Quản lý sinh viên trong kí túc xá\bin\Debug\Quản lý sinh viên trong kí túc xá.exe.config
+D:\SINHVIEN\btvn\CTDL & GT\Quản lý sinh viên trong kí túc xá\Quản lý sinh viên trong kí túc xá\bin\Debug\Quản lý sinh viên trong kí túc xá.exe
+D:\SINHVIEN\btvn\CTDL & GT\Quản lý sinh viên trong kí túc xá\Quản lý sinh viên trong kí túc xá\bin\Debug\Quản lý sinh viên trong kí túc xá.pdb
+D:\SINHVIEN\btvn\CTDL & GT\Quản lý sinh viên trong kí túc xá\Quản lý sinh viên trong kí túc xá\obj\Debug\Quản lý sinh viên trong kí túc xá.csproj.AssemblyReference.cache
+D:\SINHVIEN\btvn\CTDL & GT\Quản lý sinh viên trong kí túc xá\Quản lý sinh viên trong kí túc xá\obj\Debug\Quản lý sinh viên trong kí túc xá.csproj.CoreCompileInputs.cache
+D:\SINHVIEN\btvn\CTDL & GT\Quản lý sinh viên trong kí túc xá\Quản lý sinh viên trong kí túc xá\obj\Debug\Quản lý sinh viên trong kí túc xá.exe
+D:\SINHVIEN\btvn\CTDL & GT\Quản lý sinh viên trong kí túc xá\Quản lý sinh viên trong kí túc xá\obj\Debug\Quản lý sinh viên trong kí túc xá.pdb
+D:\SINHVIEN\btvn\CTDL & GT\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá\obj\Debug\Quản lý sinh viên trong kí túc xá.csproj.AssemblyReference.cache
+D:\SINHVIEN\btvn\CTDL & GT\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá\obj\Debug\Quản lý sinh viên trong kí túc xá.csproj.CoreCompileInputs.cache
+D:\SINHVIEN\btvn\CTDL & GT\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá\obj\Debug\Quản lý sinh viên trong kí túc xá.exe
+D:\SINHVIEN\btvn\CTDL & GT\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá\obj\Debug\Quản lý sinh viên trong kí túc xá.pdb
+D:\SINHVIEN\btvn\CTDL & GT\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá\bin\Debug\Quản lý sinh viên trong kí túc xá.exe.config
+D:\SINHVIEN\btvn\CTDL & GT\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá\bin\Debug\Quản lý sinh viên trong kí túc xá.exe
+D:\SINHVIEN\btvn\CTDL & GT\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá\bin\Debug\Quản lý sinh viên trong kí túc xá.pdb
+D:\DSA\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá\obj\Debug\Quản lý sinh viên trong kí túc xá.csproj.AssemblyReference.cache
+D:\DSA\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá\obj\Debug\Quản lý sinh viên trong kí túc xá.csproj.CoreCompileInputs.cache
+D:\DSA\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá\obj\Debug\Quản lý sinh viên trong kí túc xá.exe
+D:\DSA\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá\obj\Debug\Quản lý sinh viên trong kí túc xá.pdb
+D:\DSA\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá\bin\Debug\Quản lý sinh viên trong kí túc xá.exe.config
+D:\DSA\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá\bin\Debug\Quản lý sinh viên trong kí túc xá.exe
+D:\DSA\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá ( PHUONG)\Quản lý sinh viên trong kí túc xá\bin\Debug\Quản lý sinh viên trong kí túc xá.pdb

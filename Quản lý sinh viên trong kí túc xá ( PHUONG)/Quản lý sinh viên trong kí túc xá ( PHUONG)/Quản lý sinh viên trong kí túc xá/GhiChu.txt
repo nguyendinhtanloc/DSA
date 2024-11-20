@@ -1,0 +1,13 @@
+﻿Tôi sẽ mô tả lại chương trình Quản lý sinh viên trong kí túc xá của tôi bao gồm Student, Room, ManagetStudent,...
+[1] Đăng nhập
+[2] Chưa có tài khoản
+[3] Thoát //ấn 2 lần số 3, lần 1 sẽ hỏi "bạn có chắc chắn muốn thoát ?", lần 2 sẽ thoát
+
+Nếu chọn đăng nhập thì [1] nhap tài khoản, mật khẩu nếu nhập sai thì nhập lại, hoặc [2] quay lai
+Neu chon [2] chua co tai khoan thi bat dau tao [1] tai khoan mat khau sau do luu thong tin lai vao file
+ sau do an nut de quay lai
+sau khi dang nhap bang [1] thanh cong thi nhan dang neu tai khoan phuong@admin.hcmute.edu.vn va mat khau 123 trung khop voi tai khoan da tao tren file thi se chuyen huong ve phan chuc nang cua quan ly
+nguoc lai neu duoi la studentID@student.hcmute.edu.vn va mat khau trung khop trong file luu tru thi chuyen huong ve phan sinh vien
+
+o phan sinh vien se co 3 chuc nang lon va ben trong gom nhieu chuc nang nho la Thanh toan hoa don(DIen, nuoc, dichvu), Dang ki phong(Hien thi danh sach phong -> nhap ma phong muon dang ki -> yeu cau duyet phong se gui den qua kiem tra thong bao cua quan ly thong bao), Thong tin ca nhan(thong tin ca nhan cua student, thong tin phong ma student do dang o)
+
