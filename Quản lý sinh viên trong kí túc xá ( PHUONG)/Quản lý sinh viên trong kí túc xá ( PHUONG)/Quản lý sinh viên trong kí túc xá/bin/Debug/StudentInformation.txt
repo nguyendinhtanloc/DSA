@@ -1,0 +1,3 @@
+Username,StudentID,FullName,Hometown,PhoneNumber,Faculty,Class
+23133071@student.hcmute.edu.vn,23133071,Mai Quoc Thai,Cai Lay,0987787961,CNTT,23133B
+23133059@student.hcmute.edu.vn,23133059,Dinh Hoang Phuong,An Giang,0976917057,CTTT,23133B
